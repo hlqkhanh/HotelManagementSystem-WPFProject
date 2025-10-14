@@ -180,8 +180,7 @@
               "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\Code bai tap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\App.xaml",
               "RelativeToolTip": "HoLeQuocKhanhWPF\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-12T15:40:06.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T15:40:06.124Z"
             },
             {
               "$type": "Document",
@@ -237,9 +236,9 @@
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\Code bai tap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\Code bai tap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAMwBwAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\Code bai tap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\CustomerRepository.cs*",
+              "RelativeToolTip": "DAL\\Repositories\\CustomerRepository.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T15:25:20.337Z",
               "EditorCaption": ""
