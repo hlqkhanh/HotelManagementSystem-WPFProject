@@ -8,6 +8,7 @@ D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.sourcelink.json
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\DAL.dll
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\DAL\obj\Debug\net8.0\refint\DAL.dll

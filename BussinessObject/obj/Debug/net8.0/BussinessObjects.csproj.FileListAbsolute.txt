@@ -5,6 +5,7 @@ D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\Bussines
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.AssemblyInfoInputs.cache
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.AssemblyInfo.cs
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.csproj.CoreCompileInputs.cache
+D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.sourcelink.json
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.dll
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\refint\BussinessObjects.dll
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\BussinessObject\obj\Debug\net8.0\BussinessObjects.pdb

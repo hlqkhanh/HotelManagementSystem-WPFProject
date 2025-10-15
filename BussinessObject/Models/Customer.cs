@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinessObjects.Models
 {
-    public class Customer : ICloneable
+    public class Customer
     {
         public int CustomerID { get; set; }
         public string CustomerFullName { get; set; }
@@ -18,9 +18,6 @@ namespace BussinessObjects.Models
 
         public virtual ICollection<BookingReservation> BookingReservations { get; set; }
 
-        public object Clone()
-        {
-            return this.MemberwiseClone();
-        }
+    
     }
 }

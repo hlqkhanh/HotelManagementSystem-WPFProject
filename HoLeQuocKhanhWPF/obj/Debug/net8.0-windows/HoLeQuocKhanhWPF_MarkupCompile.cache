@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\FPT_PROCESS\S5_FA25\PRN212\Code bai tap\HoLeQuocKhanh_SE19B1.NET_A01\HoLeQuocKhanhWPF\App.xaml
-9588047536
+112056865552
 
-231646236936
+251207904941
 210-473408491
-Views\BookingHistoryView.xaml;Views\CustomerDialog.xaml;Views\CustomerManagementView.xaml;Views\CustomerProfileView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\ReportView.xaml;Views\RoomDialog.xaml;Views\RoomManagementView.xaml;
+Styles\ModernStyles.xaml;Views\Admins\AdminMainWindow.xaml;Views\Admins\CustomerManagementView.xaml;Views\Admins\ReportView.xaml;Views\Admins\RoomManagementView.xaml;Views\Customers\BookingHistoryView.xaml;Views\Customers\CustomerMainWindow.xaml;Views\Customers\CustomerProfileView.xaml;Views\Dialogs\CustomerDialog.xaml;Views\Dialogs\RoomDialog.xaml;Views\LoginView.xaml;
 
 False
 
