@@ -15,7 +15,7 @@
 
         <DataGrid Grid.Row="1" ItemsSource="{Binding BookingHistory}" IsReadOnly="True" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Booking ID" Binding="{Binding BookingReservationId}"/>
+                <DataGridTextColumn Header="Booking ID" Binding="{Binding BookingReservationID}" />
                 <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate, StringFormat='dd/MM/yyyy'}"/>
                 <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat=C}"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus}"/>

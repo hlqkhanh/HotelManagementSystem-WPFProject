@@ -58,14 +58,21 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             LoadRooms();
 
             AddRoomCommand = new RelayCommand<object>(p => AddRoom());
-            EditRoomCommand = new RelayCommand<RoomInformation>(EditRoom);
-            DeleteRoomCommand = new RelayCommand<RoomInformation>(DeleteRoom);
+            // SỬA ĐỔI: Các command này sẽ không nhận tham số nữa
+            EditRoomCommand = new RelayCommand<object>(p => EditRoom());
+            DeleteRoomCommand = new RelayCommand<object>(p => DeleteRoom());
             SearchCommand = new RelayCommand<object>(p => Search());
         }
 
         private void LoadRooms()
         {
-            Rooms = new ObservableCollection<RoomInformation>(_roomService.GetRoomInformationList());
+            // Tạm thời comment out để tránh lỗi nếu RoomType chưa có dữ liệu
+            // Rooms = new ObservableCollection<RoomInformation>(_roomService.GetRoomInformationList());
+            var roomList = _roomService.GetRoomInformationList();
+            if (roomList != null)
+            {
+                Rooms = new ObservableCollection<RoomInformation>(roomList);
+            }
         }
 
         private void AddRoom()
@@ -77,27 +84,37 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        private void EditRoom(RoomInformation room)
+        // SỬA ĐỔI: Phương thức EditRoom sẽ dùng SelectedRoom
+        private void EditRoom()
         {
-            if (room != null)
+            if (SelectedRoom != null)
             {
-                var dialog = new RoomDialog(room);
+                var dialog = new RoomDialog(SelectedRoom);
                 if (dialog.ShowDialog() == true)
                 {
                     LoadRooms();
                 }
             }
+            else
+            {
+                MessageBox.Show("Please select a room to edit.", "Information");
+            }
         }
 
-        private void DeleteRoom(RoomInformation room)
+        // SỬA ĐỔI: Phương thức DeleteRoom sẽ dùng SelectedRoom
+        private void DeleteRoom()
         {
-            if (room != null)
+            if (SelectedRoom != null)
             {
                 if (MessageBox.Show("Are you sure you want to delete this room?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
                 {
-                    _roomService.DeleteRoomInformation(room);
+                    _roomService.DeleteRoomInformation(SelectedRoom);
                     LoadRooms();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Please select a room to delete.", "Information");
             }
         }
 

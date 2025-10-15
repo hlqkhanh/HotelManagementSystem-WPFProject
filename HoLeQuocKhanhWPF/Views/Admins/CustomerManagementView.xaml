@@ -14,25 +14,22 @@
         <StackPanel Orientation="Horizontal" Margin="5">
             <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
             <Button Content="Search" Command="{Binding SearchCommand}" Margin="5"/>
-            <Button Content="Add Customer" Command="{Binding AddCustomerCommand}" Margin="5"/>
+            <Button Content="Add" Command="{Binding AddCustomerCommand}" Margin="5"/>
+            <Button Content="Edit" Command="{Binding EditCustomerCommand}" Margin="5"/>
+            <Button Content="Delete" Command="{Binding DeleteCustomerCommand}" Margin="5"/>
         </StackPanel>
 
-        <DataGrid Grid.Row="1" ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" AutoGenerateColumns="False" CanUserAddRows="False">
+        <DataGrid Grid.Row="1" 
+                  ItemsSource="{Binding Customers}" 
+                  SelectedItem="{Binding SelectedCustomer, Mode=TwoWay}" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding CustomerId}"/>
+                <DataGridTextColumn Header="ID" Binding="{Binding CustomerID}"/>
                 <DataGridTextColumn Header="Full Name" Binding="{Binding CustomerFullName}"/>
                 <DataGridTextColumn Header="Telephone" Binding="{Binding Telephone}"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding EmailAddress}"/>
-                <DataGridTemplateColumn>
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Content="Edit" Command="{Binding DataContext.EditCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
-                                <Button Content="Delete" Command="{Binding DataContext.DeleteCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5" Background="{StaticResource AccentBrush}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

@@ -14,26 +14,23 @@
         <StackPanel Orientation="Horizontal" Margin="5">
             <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
             <Button Content="Search" Command="{Binding SearchCommand}" Margin="5"/>
-            <Button Content="Add Room" Command="{Binding AddRoomCommand}" Margin="5"/>
+            <Button Content="Add" Command="{Binding AddRoomCommand}" Margin="5"/>
+            <Button Content="Edit" Command="{Binding EditRoomCommand}" Margin="5"/>
+            <Button Content="Delete" Command="{Binding DeleteRoomCommand}" Margin="5"/>
         </StackPanel>
 
-        <DataGrid Grid.Row="1" ItemsSource="{Binding Rooms}" SelectedItem="{Binding SelectedRoom}" AutoGenerateColumns="False" CanUserAddRows="False">
+        <DataGrid Grid.Row="1" 
+                  ItemsSource="{Binding Rooms}" 
+                  SelectedItem="{Binding SelectedRoom, Mode=TwoWay}" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Room ID" Binding="{Binding RoomId}"/>
                 <DataGridTextColumn Header="Room Number" Binding="{Binding RoomNumber}"/>
                 <DataGridTextColumn Header="Capacity" Binding="{Binding RoomMaxCapacity}"/>
                 <DataGridTextColumn Header="Price/Date" Binding="{Binding RoomPricePerDate, StringFormat=C}"/>
                 <DataGridTextColumn Header="Type" Binding="{Binding RoomType.RoomTypeName}"/>
-                <DataGridTemplateColumn>
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Content="Edit" Command="{Binding DataContext.EditRoomCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
-                                <Button Content="Delete" Command="{Binding DataContext.DeleteRoomCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5" Background="{StaticResource AccentBrush}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

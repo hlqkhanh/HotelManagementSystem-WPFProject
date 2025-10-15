@@ -1,4 +1,5 @@
-﻿using HoLeQuocKhanhWPF.ViewModels.Customers;
+﻿using BussinessObjects.Models;
+using HoLeQuocKhanhWPF.ViewModels.Customers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,9 +21,10 @@ namespace HoLeQuocKhanhWPF.Views.Customers
     /// </summary>
     public partial class CustomerMainWindow : Window
     {
-        public CustomerMainWindow(BussinessObjects.Models.Customer customer)
+        public CustomerMainWindow(Customer customer)
         {
             InitializeComponent();
+            this.DataContext = new CustomerMainViewModel(customer);
         }
     }
 }

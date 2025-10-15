@@ -3,12 +3,8 @@ using BLL.Services;
 using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Base;
 using HoLeQuocKhanhWPF.Views.Dialogs;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
@@ -62,8 +58,9 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             LoadCustomers();
 
             AddCustomerCommand = new RelayCommand<object>(p => AddCustomer());
-            EditCustomerCommand = new RelayCommand<Customer>(EditCustomer);
-            DeleteCustomerCommand = new RelayCommand<Customer>(DeleteCustomer);
+            // SỬA ĐỔI Ở ĐÂY: Các command này không cần nhận tham số nữa
+            EditCustomerCommand = new RelayCommand<object>(p => EditCustomer());
+            DeleteCustomerCommand = new RelayCommand<object>(p => DeleteCustomer());
             SearchCommand = new RelayCommand<object>(p => Search());
         }
 
@@ -81,27 +78,39 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        private void EditCustomer(Customer customer)
+        // SỬA ĐỔI Ở ĐÂY: Phương thức EditCustomer không cần tham số
+        private void EditCustomer()
         {
-            if (customer != null)
+            // Kiểm tra xem có khách hàng nào được chọn không
+            if (SelectedCustomer != null)
             {
-                var dialog = new CustomerDialog(customer);
+                var dialog = new CustomerDialog(SelectedCustomer);
                 if (dialog.ShowDialog() == true)
                 {
                     LoadCustomers();
                 }
             }
+            else
+            {
+                MessageBox.Show("Please select a customer to edit.", "Information");
+            }
         }
 
-        private void DeleteCustomer(Customer customer)
+        // SỬA ĐỔI Ở ĐÂY: Phương thức DeleteCustomer không cần tham số
+        private void DeleteCustomer()
         {
-            if (customer != null)
+            // Kiểm tra xem có khách hàng nào được chọn không
+            if (SelectedCustomer != null)
             {
-                if (MessageBox.Show("Are you sure you want to delete this customer?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                if (MessageBox.Show("Are you sure you want to delete this customer?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
                 {
-                    _customerService.DeleteCustomer(customer);
+                    _customerService.DeleteCustomer(SelectedCustomer);
                     LoadCustomers();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Please select a customer to delete.", "Information");
             }
         }
 

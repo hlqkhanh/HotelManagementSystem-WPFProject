@@ -9,6 +9,7 @@
              xmlns:customerView="clr-namespace:HoLeQuocKhanhWPF.Views.Customers"
              
              StartupUri="Views/LoginView.xaml">
+    
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -34,4 +35,5 @@
 
         </ResourceDictionary>
     </Application.Resources>
+    
 </Application>
