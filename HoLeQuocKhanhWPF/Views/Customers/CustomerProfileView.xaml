@@ -18,7 +18,6 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
                 <Label Grid.Row="0" Grid.Column="0" Content="Full Name:" Margin="5"/>
@@ -33,10 +32,12 @@
                 <Label Grid.Row="3" Grid.Column="0" Content="Birthday:" Margin="5"/>
                 <DatePicker Grid.Row="3" Grid.Column="1" SelectedDate="{Binding CurrentCustomer.CustomerBirthday, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
 
-                <Label Grid.Row="4" Grid.Column="0" Content="Password:" Margin="5"/>
-                <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding CurrentCustomer.Password, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
             </Grid>
-            <Button Content="Save Changes" Command="{Binding SaveChangesCommand}" HorizontalAlignment="Left" Margin="110,20,0,0"/>
+
+            <StackPanel Orientation="Horizontal" Margin="110,20,0,0">
+                <Button Content="Save Changes" Command="{Binding SaveChangesCommand}" />
+                <Button Content="Change Password" Command="{Binding ChangePasswordCommand}" Margin="10,0,0,0"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </UserControl>

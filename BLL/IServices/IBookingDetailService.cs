@@ -10,5 +10,6 @@ namespace BLL.IServices
     public interface IBookingDetailService
     {
         List<BookingDetail> GetBookingDetailList();
+        void AddBookingDetail(BookingDetail bookingDetail);
     }
 }

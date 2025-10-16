@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="HoLeQuocKhanhWPF.Views.Customers.BookRoomView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Book a Room" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,15">
+            <Label Content="Start Date:"/>
+            <DatePicker SelectedDate="{Binding StartDate}"/>
+            <Label Content="End Date:" Margin="20,0,0,0"/>
+            <DatePicker SelectedDate="{Binding EndDate}"/>
+            <Button Content="Search Available Rooms" Command="{Binding SearchCommand}" Margin="20,0,0,0"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="2" x:Name="AvailableRoomsGrid"
+                  ItemsSource="{Binding AvailableRooms}" 
+                  SelectionMode="Extended" 
+                  IsReadOnly="True" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Room Number" Binding="{Binding RoomNumber}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding RoomDescription}" Width="*"/>
+                <DataGridTextColumn Header="Capacity" Binding="{Binding RoomMaxCapacity}"/>
+                <DataGridTextColumn Header="Price/Date" Binding="{Binding RoomPricePerDate, StringFormat=C}"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding RoomType.RoomTypeName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Grid.Row="3" Content="Book Selected Rooms" 
+                Command="{Binding BookCommand}" 
+                CommandParameter="{Binding ElementName=AvailableRoomsGrid}"
+                HorizontalAlignment="Right" Margin="0,10,0,0"/>
+
+    </Grid>
+</UserControl>

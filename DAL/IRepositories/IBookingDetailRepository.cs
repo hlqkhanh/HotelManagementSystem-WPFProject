@@ -10,5 +10,6 @@ namespace DAL.IRepositories
     public interface IBookingDetailRepository
     {
         List<BookingDetail> GetAllBookingDetail();
+        void AddBookingDetail(BookingDetail bookingDetail);
     }
 }

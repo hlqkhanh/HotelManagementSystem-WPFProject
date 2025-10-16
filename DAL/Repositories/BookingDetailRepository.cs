@@ -11,6 +11,11 @@ namespace DAL.Repositories
 {
     public class BookingDetailRepository : IBookingDetailRepository
     {
+        public void AddBookingDetail(BookingDetail bookingDetail)
+        {
+            BookingDetailDAO.Add(bookingDetail);
+        }
+
         public List<BookingDetail> GetAllBookingDetail()
         {
             return BookingDetailDAO.GetAll();

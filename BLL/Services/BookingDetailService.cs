@@ -19,6 +19,11 @@ namespace BLL.Services
             iBookingDetailRepository = new BookingDetailRepository();
         }
 
+        public void AddBookingDetail(BookingDetail bookingDetail)
+        {
+            iBookingDetailRepository.AddBookingDetail(bookingDetail);
+        }
+
         public List<BookingDetail> GetBookingDetailList()
         {
             return iBookingDetailRepository.GetAllBookingDetail();

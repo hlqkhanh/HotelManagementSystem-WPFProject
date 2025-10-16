@@ -1,6 +1,7 @@
 ﻿using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Base;
-using System.Windows;
+using HoLeQuocKhanhWPF.Views; // Thêm using để trỏ tới LoginView
+using System.Windows;         // Thêm using cho Window và Application
 using System.Windows.Input;
 
 namespace HoLeQuocKhanhWPF.ViewModels.Customers
@@ -14,27 +15,19 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
         public ViewModelBase CurrentViewModel
         {
             get => _currentViewModel;
-            set
-            {
-                _currentViewModel = value;
-                OnPropertyChanged();
-            }
+            set { _currentViewModel = value; OnPropertyChanged(); }
         }
 
         public string WelcomeMessage
         {
             get => _welcomeMessage;
-            set
-            {
-                _welcomeMessage = value;
-                OnPropertyChanged();
-            }
+            set { _welcomeMessage = value; OnPropertyChanged(); }
         }
 
         public ICommand ShowProfileCommand { get; }
         public ICommand ShowBookingHistoryCommand { get; }
         public ICommand BookRoomCommand { get; }
-
+        public ICommand LogoutCommand { get; } // Thêm Command Logout
 
         public CustomerMainViewModel(Customer customer)
         {
@@ -43,16 +36,25 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
 
             ShowProfileCommand = new RelayCommand<object>(p => CurrentViewModel = new CustomerProfileViewModel(_currentCustomer));
             ShowBookingHistoryCommand = new RelayCommand<object>(p => CurrentViewModel = new BookingHistoryViewModel(_currentCustomer));
-            BookRoomCommand = new RelayCommand<object>(p => BookRoom());
+            BookRoomCommand = new RelayCommand<object>(p => CurrentViewModel = new BookRoomViewModel(_currentCustomer));
+
+            // Khởi tạo LogoutCommand
+            LogoutCommand = new RelayCommand<Window>(Logout);
 
             // Default view
             CurrentViewModel = new CustomerProfileViewModel(_currentCustomer);
         }
 
-        private void BookRoom()
+        // Phương thức xử lý logic Logout
+        private void Logout(Window window)
         {
-            // Logic for booking a room can be implemented here or navigate to a new window/view
-            MessageBox.Show("Booking room feature is not implemented yet.", "Info");
+            if (window != null)
+            {
+                var loginView = new LoginView();
+                Application.Current.MainWindow = loginView;
+                loginView.Show();
+                window.Close();
+            }
         }
     }
 }

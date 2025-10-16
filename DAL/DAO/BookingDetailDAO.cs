@@ -19,7 +19,20 @@ namespace DAL.DAO
 
         public static List<BookingDetail> GetAll()
         {
+            List<BookingDetail> list = new List<BookingDetail>();
+
+            foreach(BookingDetail b in bookingDetails.ToList())
+            {
+                b.BookingReservation = BookingReservationDAO.GetBookingReservation(b.BookingReservationID);
+                b.RoomInformation = RoomInformationDAO.GetRoomInformation(b.RoomID);
+            }
+
             return bookingDetails;
+        }
+
+        public static void Add(BookingDetail b)
+        {
+            bookingDetails.Add(b);
         }
     }
 }

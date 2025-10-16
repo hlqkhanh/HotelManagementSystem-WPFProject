@@ -17,10 +17,19 @@
     <Compile Update="Views\Customers\BookingHistoryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Customers\BookRoomView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Customers\CustomerMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Customers\CustomerProfileView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Dialogs\BookingDetailDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Dialogs\ChangePasswordDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Dialogs\CustomerDialog.xaml.cs">

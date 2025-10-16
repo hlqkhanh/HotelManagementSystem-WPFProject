@@ -57,5 +57,16 @@ namespace DAL.DAO
                 }
             }
         }
+
+        public static RoomInformation GetRoomInformation(int roomID)
+        {
+            foreach(RoomInformation roomInform in roomInformations.ToList())
+            {
+                if(roomInform.RoomID == roomID)
+                    return roomInform;
+            }
+
+            return null;
+        }
     }
 }

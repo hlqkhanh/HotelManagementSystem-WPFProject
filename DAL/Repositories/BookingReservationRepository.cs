@@ -11,6 +11,11 @@ namespace DAL.Repositories
 {
     public class BookingReservationRepository : IBookingReservationRepository
     {
+        public void AddBookingReservation(BookingReservation bookingReservation)
+        {
+            BookingReservationDAO.Add(bookingReservation);
+        }
+
         public List<BookingReservation> GetAllBookingReservation()
         {
             return BookingReservationDAO.GetAll();

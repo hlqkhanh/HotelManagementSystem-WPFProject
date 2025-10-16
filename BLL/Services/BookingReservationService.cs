@@ -19,6 +19,11 @@ namespace BLL.Services
             iBookingReservationRepository = new BookingReservationRepository();
         }
 
+        public void AddBookingReservation(BookingReservation bookingReservation)
+        {
+            iBookingReservationRepository.AddBookingReservation(bookingReservation);
+        }
+
         public List<BookingReservation> GetAllBookingReservation()
         {
             return iBookingReservationRepository.GetAllBookingReservation();

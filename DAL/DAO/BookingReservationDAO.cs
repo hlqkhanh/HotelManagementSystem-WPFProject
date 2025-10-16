@@ -32,5 +32,20 @@ namespace DAL.DAO
             }
             return list;
         }
+
+        public static BookingReservation GetBookingReservation(int bookingReservationID)
+        {
+            foreach(BookingReservation br in bookingReservations.ToList())
+            {
+                if(br.BookingReservationID == bookingReservationID) { return br; }
+            }
+
+            return null;
+        }
+
+        public static void Add(BookingReservation reservation)
+        {
+            bookingReservations.Add(reservation);
+        }
     }
 }
