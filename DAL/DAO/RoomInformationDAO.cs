@@ -19,7 +19,9 @@ namespace DAL.DAO
         };
 
 
-        static RoomInformationDAO()
+        
+
+        public static List<RoomInformation> GetAll()
         {
             var allRoomTypes = RoomTypeDAO.GetALl();
 
@@ -30,11 +32,6 @@ namespace DAL.DAO
                     room.RoomType = allRoomTypes.FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
                 }
             }
-        }
-
-        public static List<RoomInformation> GetAll()
-        {
-            
             return roomInformations;
         }
 

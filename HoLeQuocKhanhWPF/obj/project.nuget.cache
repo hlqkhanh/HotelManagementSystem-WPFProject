@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jU37PUvAweQ=",
+  "dgSpecHash": "znwpA4PWxhE=",
   "success": true,
-  "projectFilePath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj",
+  "projectFilePath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84702\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.9\\microsoft.extensions.configuration.9.0.9.nupkg.sha512",
     "C:\\Users\\84702\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",

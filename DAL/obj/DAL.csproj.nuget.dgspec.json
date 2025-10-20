@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj": {}
+    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj": {
+    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj",
+        "projectUniqueName": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj",
         "projectName": "BussinessObjects",
-        "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj",
+        "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj",
         "packagesPath": "C:\\Users\\84702\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\obj\\",
+        "outputPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj": {
+    "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj",
+        "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\84702\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\DAL\\obj\\",
+        "outputPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj": {
-                "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj"
+              "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj": {
+                "projectPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\ver2\\HotelManagementSystem-WPFProject (2)\\HotelManagementSystem-WPFProject\\BussinessObject\\BussinessObjects.csproj"
               }
             }
           }

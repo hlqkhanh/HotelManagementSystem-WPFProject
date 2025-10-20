@@ -15,7 +15,9 @@ namespace DAL.DAO
             new BookingReservation { BookingReservationID = 2, BookingDate = new DateTime(2023, 12, 21), TotalPrice = 1493.00m, CustomerID = 3, BookingStatus = 1 }
         };
 
-        static BookingReservationDAO()
+       
+
+        public static List<BookingReservation> GetAll()
         {
             var allCustomer = CustomerDAO.GetAll();
 
@@ -29,11 +31,6 @@ namespace DAL.DAO
                 var bookingDetailList = BookingDetailDAO.GetBookingDetailsByReservationID(booking.BookingReservationID);
                 booking.BookingDetails = bookingDetailList;
             }
-        }
-
-        public static List<BookingReservation> GetAll()
-        {
-            
 
             return bookingReservations;
         }
