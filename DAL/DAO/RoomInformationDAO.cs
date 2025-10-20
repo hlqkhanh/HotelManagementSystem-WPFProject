@@ -18,8 +18,23 @@ namespace DAL.DAO
             new RoomInformation { RoomID = 7, RoomNumber = "4434", RoomDescription = "Floor 4, main window in the South ", RoomMaxCapacity = 4, RoomTypeID = 1, RoomStatus = 1, RoomPricePerDate = 179.00m }
         };
 
+
+        static RoomInformationDAO()
+        {
+            var allRoomTypes = RoomTypeDAO.GetALl();
+
+            foreach (var room in roomInformations)
+            {
+                if (room.RoomType == null)
+                {
+                    room.RoomType = allRoomTypes.FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
+                }
+            }
+        }
+
         public static List<RoomInformation> GetAll()
         {
+            
             return roomInformations;
         }
 
@@ -30,43 +45,42 @@ namespace DAL.DAO
 
         public static void Update(RoomInformation room)
         {
-            foreach (RoomInformation roomInform in roomInformations.ToList())
+            var roomToUpdate = roomInformations.FirstOrDefault(r => r.RoomID == room.RoomID);
+            if (roomToUpdate != null)
             {
-                if (roomInform.RoomID == room.RoomID)
-                {
-                    roomInform.RoomDescription = room.RoomDescription;
-                    roomInform.RoomPricePerDate = room.RoomPricePerDate;
-                    roomInform.RoomNumber = room.RoomNumber;
-                    roomInform.RoomMaxCapacity = room.RoomMaxCapacity;
-                    roomInform.BookingDetails = room.BookingDetails;
-                    roomInform.RoomStatus = room.RoomStatus;
-                    roomInform.RoomType = room.RoomType;
-                    roomInform.RoomTypeID = room.RoomTypeID;
+                roomToUpdate.RoomNumber = room.RoomNumber;
+                roomToUpdate.RoomDescription = room.RoomDescription;
+                roomToUpdate.RoomMaxCapacity = room.RoomMaxCapacity;
+                roomToUpdate.RoomStatus = room.RoomStatus;
+                roomToUpdate.RoomPricePerDate = room.RoomPricePerDate;
 
+                if (roomToUpdate.RoomTypeID != room.RoomTypeID)
+                {
+                    roomToUpdate.RoomTypeID = room.RoomTypeID;
+                    roomToUpdate.RoomType = RoomTypeDAO.GetALl().FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
                 }
             }
         }
 
-        public static void delete(RoomInformation room)
+        public static void Delete(RoomInformation room)
         {
-            foreach (RoomInformation roomInform in roomInformations.ToList())
+            var roomToRemove = roomInformations.FirstOrDefault(r => r.RoomID == room.RoomID);
+            if (roomToRemove != null)
             {
-                if (roomInform.RoomID == room.RoomID)
-                {
-                    roomInformations.Remove(roomInform);
-                }
+                roomInformations.Remove(roomToRemove);
             }
         }
 
         public static RoomInformation GetRoomInformation(int roomID)
         {
-            foreach(RoomInformation roomInform in roomInformations.ToList())
+            var room = roomInformations.FirstOrDefault(r => r.RoomID == roomID);
+
+            if (room != null && room.RoomType == null) 
             {
-                if(roomInform.RoomID == roomID)
-                    return roomInform;
+                room.RoomType = RoomTypeDAO.GetALl().FirstOrDefault(rt => rt.RoomTypeID == room.RoomTypeID);
             }
 
-            return null;
+            return room;
         }
     }
 }

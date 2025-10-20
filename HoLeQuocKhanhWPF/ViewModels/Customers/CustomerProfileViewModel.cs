@@ -2,7 +2,7 @@
 using BLL.Services;
 using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Base;
-using HoLeQuocKhanhWPF.Views.Dialogs; // Thêm using cho thư mục Dialogs
+using HoLeQuocKhanhWPF.Views.Dialogs;
 using System.Windows;
 using System.Windows.Input;
 
@@ -24,7 +24,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
         }
 
         public ICommand SaveChangesCommand { get; }
-        public ICommand ChangePasswordCommand { get; } // Thêm Command mới
+        public ICommand ChangePasswordCommand { get; } 
 
         public CustomerProfileViewModel(BussinessObjects.Models.Customer customer)
         {
@@ -32,14 +32,13 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             CurrentCustomer = customer;
 
             SaveChangesCommand = new RelayCommand<object>(p => SaveChanges());
-            ChangePasswordCommand = new RelayCommand<object>(p => ChangePassword()); // Khởi tạo Command
+            ChangePasswordCommand = new RelayCommand<object>(p => ChangePassword()); 
         }
 
         private void SaveChanges()
         {
             try
             {
-                // Logic lưu không còn liên quan đến mật khẩu
                 _customerService.UpdateCustomer(CurrentCustomer);
                 MessageBox.Show("Profile updated successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
@@ -49,7 +48,6 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             }
         }
 
-        // Phương thức mới để mở dialog đổi mật khẩu
         private void ChangePassword()
         {
             var changePasswordDialog = new ChangePasswordDialog(CurrentCustomer);

@@ -74,5 +74,10 @@ namespace DAL.DAO
             }
             return null;
         }
+
+        public static Customer? GetCustomer(int customerID)
+        {
+            return customers.FirstOrDefault(c => c.CustomerID == customerID);
+        }
     }
 }

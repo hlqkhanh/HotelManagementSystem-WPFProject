@@ -34,5 +34,11 @@ namespace DAL.DAO
         {
             bookingDetails.Add(b);
         }
+
+        public static List<BookingDetail> GetBookingDetailsByReservationID(int bookingReservationID)
+        {
+            var allDetails = GetAll();
+            return allDetails.Where(bd => bd.BookingReservationID == bookingReservationID).ToList();
+        }
     }
 }

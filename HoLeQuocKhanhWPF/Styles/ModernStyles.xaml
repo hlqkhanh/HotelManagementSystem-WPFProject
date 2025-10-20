@@ -6,6 +6,10 @@
     <SolidColorBrush x:Key="LightBrush" Color="White"/>
     <SolidColorBrush x:Key="DarkBrush" Color="#333333"/>
     <SolidColorBrush x:Key="AccentBrush" Color="#FF4500"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="#DDDDDD"/>
+    <SolidColorBrush x:Key="DataGridHeaderBrush" Color="#F8F9FA"/>
+    <SolidColorBrush x:Key="DataGridRowHoverBrush" Color="#E9ECEF"/>
+    <SolidColorBrush x:Key="DataGridBorderBrush" Color="#DEE2E6"/>
 
     <Style TargetType="Button">
         <Setter Property="Background" Value="{StaticResource PrimaryBrush}"/>

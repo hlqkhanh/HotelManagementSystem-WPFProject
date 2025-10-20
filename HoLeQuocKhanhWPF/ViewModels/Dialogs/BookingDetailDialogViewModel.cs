@@ -30,7 +30,6 @@ namespace HoLeQuocKhanhWPF.ViewModels.Dialogs
 
         private void LoadBookingDetails(int reservationId)
         {
-            // Lấy tất cả chi tiết và lọc theo ID của đơn đặt phòng
             var allDetails = _bookingDetailService.GetBookingDetailList();
             if (allDetails != null)
             {

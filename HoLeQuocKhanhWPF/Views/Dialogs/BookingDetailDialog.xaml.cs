@@ -1,6 +1,7 @@
 ﻿using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Dialogs;
 using System.Windows;
+using System.Windows.Input;
 
 namespace HoLeQuocKhanhWPF.Views.Dialogs
 {
@@ -12,6 +13,6 @@ namespace HoLeQuocKhanhWPF.Views.Dialogs
             DataContext = new BookingDetailDialogViewModel(reservation);
         }
 
-  
+       
     }
 }

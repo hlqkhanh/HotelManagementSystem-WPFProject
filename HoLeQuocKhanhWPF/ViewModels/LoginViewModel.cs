@@ -63,7 +63,6 @@ namespace HoLeQuocKhanhWPF.ViewModels
 
             if (Email == adminEmail && password == adminPassword)
             {
-                // Admin login
                 var adminWindow = new AdminMainWindow();
                 adminWindow.Show();
                 Application.Current.MainWindow.Close();
@@ -73,7 +72,6 @@ namespace HoLeQuocKhanhWPF.ViewModels
                 var customer = _customerService.CheckLogin(Email, password);
                 if (customer != null)
                 {
-                    // Customer login
                     var customerWindow = new CustomerMainWindow(customer);
                     customerWindow.Show();
                     Application.Current.MainWindow.Close();

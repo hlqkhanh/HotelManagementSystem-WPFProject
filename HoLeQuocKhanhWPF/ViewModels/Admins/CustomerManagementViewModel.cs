@@ -58,7 +58,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             LoadCustomers();
 
             AddCustomerCommand = new RelayCommand<object>(p => AddCustomer());
-            // SỬA ĐỔI Ở ĐÂY: Các command này không cần nhận tham số nữa
+            
             EditCustomerCommand = new RelayCommand<object>(p => EditCustomer());
             DeleteCustomerCommand = new RelayCommand<object>(p => DeleteCustomer());
             SearchCommand = new RelayCommand<object>(p => Search());
@@ -78,10 +78,10 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        // SỬA ĐỔI Ở ĐÂY: Phương thức EditCustomer không cần tham số
+      
         private void EditCustomer()
         {
-            // Kiểm tra xem có khách hàng nào được chọn không
+            
             if (SelectedCustomer != null)
             {
                 var dialog = new CustomerDialog(SelectedCustomer);
@@ -96,10 +96,8 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        // SỬA ĐỔI Ở ĐÂY: Phương thức DeleteCustomer không cần tham số
         private void DeleteCustomer()
         {
-            // Kiểm tra xem có khách hàng nào được chọn không
             if (SelectedCustomer != null)
             {
                 if (MessageBox.Show("Are you sure you want to delete this customer?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)

@@ -47,28 +47,24 @@ namespace HoLeQuocKhanhWPF.ViewModels.Dialogs
             string newPassword = newPasswordBox.Password;
             string confirmPassword = confirmPasswordBox.Password;
 
-            // 1. Kiểm tra mật khẩu hiện tại
             if (currentPassword != _customer.Password)
             {
                 ErrorMessage = "Current password is not correct.";
                 return;
             }
 
-            // 2. Kiểm tra mật khẩu mới có trống không
             if (string.IsNullOrWhiteSpace(newPassword))
             {
                 ErrorMessage = "New password cannot be empty.";
                 return;
             }
 
-            // 3. Kiểm tra mật khẩu mới và xác nhận có trùng khớp không
             if (newPassword != confirmPassword)
             {
                 ErrorMessage = "New password and confirmation password do not match.";
                 return;
             }
 
-            // Mọi thứ hợp lệ, tiến hành cập nhật
             try
             {
                 _customer.Password = newPassword;

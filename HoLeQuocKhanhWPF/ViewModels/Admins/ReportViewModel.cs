@@ -2,6 +2,8 @@
 using BLL.Services;
 using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Base;
+using HoLeQuocKhanhWPF.ViewModels.Dialogs;
+using HoLeQuocKhanhWPF.Views.Dialogs;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -48,12 +50,15 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
         }
 
         public ICommand GenerateReportCommand { get; }
+        // THÊM COMMAND MỚI
+        public ICommand ViewDetailsCommand { get; }
 
         public ReportViewModel()
         {
             _bookingService = new BookingReservationService();
             GenerateReportCommand = new RelayCommand<object>(p => GenerateReport());
-            GenerateReport(); // Initial report
+            ViewDetailsCommand = new RelayCommand<BookingReservation>(ViewDetails);
+            GenerateReport(); 
         }
 
         private void GenerateReport()
@@ -73,6 +78,25 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
                 .ToList();
 
             ReportData = new ObservableCollection<BookingReservation>(filteredBookings);
+        }
+
+        // THÊM PHƯƠNG THỨC NÀY
+        private void ViewDetails(BookingReservation selectedBooking)
+        {
+            if (selectedBooking == null || selectedBooking.BookingDetails == null || !selectedBooking.BookingDetails.Any())
+            {
+                MessageBox.Show("No details available for this booking.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            var detailViewModel = new BookingDetailDialogViewModel(selectedBooking);
+
+            var detailDialog = new BookingDetailDialog(selectedBooking) 
+            {
+                DataContext = detailViewModel
+            };
+
+            detailDialog.ShowDialog();
         }
     }
 }

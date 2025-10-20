@@ -7,36 +7,34 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Input;
+using System.Windows.Controls; 
 
 namespace HoLeQuocKhanhWPF.ViewModels.Customers
 {
     public class BookRoomViewModel : ViewModelBase
     {
-        // Các services để tương tác với business logic layer
         private readonly IRoomInformationService _roomService;
         private readonly IBookingDetailService _bookingDetailService;
         private readonly IBookingReservationService _bookingReservationService;
-
-        // Thông tin khách hàng đang đăng nhập
         private readonly Customer _currentCustomer;
 
-        // Các thuộc tính binding với View
+
         private DateTime _startDate = DateTime.Now.Date;
         private DateTime _endDate = DateTime.Now.AddDays(1).Date;
         private ObservableCollection<RoomInformation> _availableRooms;
+        private ObservableCollection<RoomInformation> _selectedRoomsForBooking = new ObservableCollection<RoomInformation>();
+        private decimal _totalCartPrice;
 
         public DateTime StartDate
         {
             get => _startDate;
-            set { _startDate = value; OnPropertyChanged(); }
+            set { _startDate = value; OnPropertyChanged(); RecalculateCartPrice(); } // Tính lại giá khi đổi ngày
         }
 
         public DateTime EndDate
         {
             get => _endDate;
-            set { _endDate = value; OnPropertyChanged(); }
+            set { _endDate = value; OnPropertyChanged(); RecalculateCartPrice(); } // Tính lại giá khi đổi ngày
         }
 
         public ObservableCollection<RoomInformation> AvailableRooms
@@ -45,11 +43,23 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             set { _availableRooms = value; OnPropertyChanged(); }
         }
 
-        // Các Command binding với các nút bấm trên View
+        public ObservableCollection<RoomInformation> SelectedRoomsForBooking
+        {
+            get => _selectedRoomsForBooking;
+            set { _selectedRoomsForBooking = value; OnPropertyChanged(); RecalculateCartPrice(); }
+        }
+
+        public decimal TotalCartPrice
+        {
+            get => _totalCartPrice;
+            set { _totalCartPrice = value; OnPropertyChanged(); }
+        }
+
         public ICommand SearchCommand { get; }
         public ICommand BookCommand { get; }
+        public ICommand AddToCartCommand { get; }
+        public ICommand RemoveFromCartCommand { get; }
 
-        // Hàm khởi tạo của ViewModel
         public BookRoomViewModel(Customer customer)
         {
             _currentCustomer = customer;
@@ -57,11 +67,12 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             _bookingDetailService = new BookingDetailService();
             _bookingReservationService = new BookingReservationService();
 
-            // Khởi tạo các Command
             SearchCommand = new RelayCommand<object>(p => SearchAvailableRooms());
-            BookCommand = new RelayCommand<DataGrid>(BookRooms);
+            BookCommand = new RelayCommand<object>(p => BookRoomsInCart(), p => CanBookRooms()); // Thêm CanExecute
 
-            // Tải danh sách phòng trống lần đầu tiên
+            AddToCartCommand = new RelayCommand<RoomInformation>(AddToCart);
+            RemoveFromCartCommand = new RelayCommand<RoomInformation>(RemoveFromCart);
+
             SearchAvailableRooms();
         }
 
@@ -70,6 +81,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             if (StartDate >= EndDate)
             {
                 MessageBox.Show("End date must be after start date.", "Invalid Date", MessageBoxButton.OK, MessageBoxImage.Warning);
+                AvailableRooms = new ObservableCollection<RoomInformation>(); // Reset list
                 return;
             }
 
@@ -82,59 +94,104 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
 
             var allBookingDetails = _bookingDetailService.GetBookingDetailList() ?? new List<BookingDetail>();
 
-            // Lấy danh sách ID của các phòng đã được đặt và có ngày trùng lặp
             var unavailableRoomIds = allBookingDetails
                 .Where(detail => detail.StartDate < EndDate && detail.EndDate > StartDate)
                 .Select(detail => detail.RoomID)
                 .Distinct()
                 .ToList();
 
-            // Lọc ra danh sách các phòng còn trống
             var availableRoomsList = allRooms
                 .Where(room => !unavailableRoomIds.Contains(room.RoomID))
                 .ToList();
 
             AvailableRooms = new ObservableCollection<RoomInformation>(availableRoomsList);
+
+            var roomsToRemoveFromCart = SelectedRoomsForBooking.Where(cartRoom => !availableRoomsList.Any(availRoom => availRoom.RoomID == cartRoom.RoomID)).ToList();
+            foreach (var roomToRemove in roomsToRemoveFromCart)
+            {
+                SelectedRoomsForBooking.Remove(roomToRemove);
+            }
+            RecalculateCartPrice(); 
         }
 
-        private void BookRooms(DataGrid availableRoomsGrid)
+        private void AddToCart(RoomInformation roomToAdd)
         {
-            if (availableRoomsGrid == null || availableRoomsGrid.SelectedItems.Count == 0)
+            if (roomToAdd != null && !SelectedRoomsForBooking.Any(r => r.RoomID == roomToAdd.RoomID))
             {
-                MessageBox.Show("Please select one or more rooms to book.", "No Rooms Selected", MessageBoxButton.OK, MessageBoxImage.Information);
+                SelectedRoomsForBooking.Add(roomToAdd);
+                RecalculateCartPrice();
+            }
+        }
+
+        private void RemoveFromCart(RoomInformation roomToRemove)
+        {
+            if (roomToRemove != null)
+            {
+                SelectedRoomsForBooking.Remove(roomToRemove);
+                RecalculateCartPrice();
+            }
+        }
+
+        private void RecalculateCartPrice()
+        {
+            if (StartDate >= EndDate)
+            {
+                TotalCartPrice = 0;
+                return;
+            }
+            int numberOfDays = (EndDate - StartDate).Days;
+            if (numberOfDays <= 0) numberOfDays = 1; // Ít nhất 1 ngày
+
+            TotalCartPrice = SelectedRoomsForBooking.Sum(room => numberOfDays * room.RoomPricePerDate);
+        }
+
+        private bool CanBookRooms()
+        {
+            return SelectedRoomsForBooking.Any() && StartDate < EndDate;
+        }
+
+
+        private void BookRoomsInCart()
+        {
+            if (!SelectedRoomsForBooking.Any())
+            {
+                MessageBox.Show("Your booking cart is empty.", "Empty Cart", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+            if (StartDate >= EndDate)
+            {
+                MessageBox.Show("End date must be after start date.", "Invalid Date", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            var selectedRooms = availableRoomsGrid.SelectedItems.Cast<RoomInformation>().ToList();
-            string roomNumbers = string.Join(", ", selectedRooms.Select(r => r.RoomNumber));
 
-            var result = MessageBox.Show($"Are you sure you want to book the following rooms from {StartDate:dd/MM/yyyy} to {EndDate:dd/MM/yyyy}?\n\nRooms: {roomNumbers}",
-                                         "Confirm Booking", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            string roomNumbers = string.Join(", ", SelectedRoomsForBooking.Select(r => r.RoomNumber));
+            RecalculateCartPrice(); 
+
+            var result = MessageBox.Show($"Confirm booking for the following rooms from {StartDate:dd/MM/yyyy} to {EndDate:dd/MM/yyyy}?\n\nRooms: {roomNumbers}\nTotal Price: {TotalCartPrice:C}",
+                                          "Confirm Booking", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
             if (result == MessageBoxResult.Yes)
             {
                 try
                 {
                     int numberOfDays = (EndDate - StartDate).Days;
-                    decimal totalPrice = selectedRooms.Sum(room => numberOfDays * room.RoomPricePerDate);
 
-                    // Giả lập việc đã có ID mới sau khi lưu
+                    
                     int newReservationId = _bookingReservationService.GetMaxBookingReservationID() + 1;
-
                     var newReservation = new BookingReservation
                     {
                         BookingReservationID = newReservationId,
                         BookingDate = DateTime.Now,
-                        TotalPrice = totalPrice,
+                        TotalPrice = TotalCartPrice,
                         CustomerID = _currentCustomer.CustomerID,
                         BookingStatus = 1
                     };
                     _bookingReservationService.AddBookingReservation(newReservation);
-                    
-                    
+
 
                     var newBookingDetails = new List<BookingDetail>();
-                    foreach (var room in selectedRooms)
+                    foreach (var room in SelectedRoomsForBooking)
                     {
                         var newDetail = new BookingDetail
                         {
@@ -142,21 +199,20 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
                             RoomID = room.RoomID,
                             StartDate = StartDate,
                             EndDate = EndDate,
-                            ActualPrice = room.RoomPricePerDate
+                            ActualPrice = room.RoomPricePerDate 
                         };
                         newBookingDetails.Add(newDetail);
                     }
 
-                    // **QUAN TRỌNG**: Ở đây bạn cần gọi service để lưu danh sách `newBookingDetails` vào CSDL.
-                    // Ví dụ: foreach(var detail in newBookingDetails) { _bookingDetailService.AddBookingDetail(detail); }
-                    foreach(var bd in newBookingDetails.ToList())
+                    foreach (var bd in newBookingDetails)
                     {
                         _bookingDetailService.AddBookingDetail(bd);
                     }
 
                     MessageBox.Show("Rooms booked successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                    SearchAvailableRooms(); // Tải lại danh sách phòng trống
+                    SelectedRoomsForBooking.Clear();
+                    SearchAvailableRooms();
                 }
                 catch (Exception ex)
                 {

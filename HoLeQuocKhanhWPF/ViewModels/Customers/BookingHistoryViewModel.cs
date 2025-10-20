@@ -2,9 +2,9 @@
 using BLL.Services;
 using BussinessObjects.Models;
 using HoLeQuocKhanhWPF.ViewModels.Base;
-using HoLeQuocKhanhWPF.Views.Dialogs; // Đảm bảo có using này
+using HoLeQuocKhanhWPF.Views.Dialogs; 
 using System.Collections.ObjectModel;
-using System.Windows.Input; // Đảm bảo có using này
+using System.Windows.Input; 
 
 namespace HoLeQuocKhanhWPF.ViewModels.Customers
 {
@@ -28,7 +28,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             _currentCustomer = customer;
             LoadBookingHistory();
 
-            // Khởi tạo Command nhận tham số là BookingReservation
+            
             ViewDetailCommand = new RelayCommand<BookingReservation>(ViewDetail);
         }
 
@@ -45,7 +45,6 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
             }
         }
 
-        // Phương thức xử lý đã được đơn giản hóa
         private void ViewDetail(BookingReservation reservation)
         {
             if (reservation != null)

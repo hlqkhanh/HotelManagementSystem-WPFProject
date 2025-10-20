@@ -18,7 +18,7 @@ namespace DAL.Repositories
 
         public void DeleteRoomInformation(RoomInformation roomInformation)
         {
-            RoomInformationDAO.delete(roomInformation);
+            RoomInformationDAO.Delete(roomInformation);
         }
 
         public List<RoomInformation> GetAllRoomInformation()

@@ -58,7 +58,6 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             LoadRooms();
 
             AddRoomCommand = new RelayCommand<object>(p => AddRoom());
-            // SỬA ĐỔI: Các command này sẽ không nhận tham số nữa
             EditRoomCommand = new RelayCommand<object>(p => EditRoom());
             DeleteRoomCommand = new RelayCommand<object>(p => DeleteRoom());
             SearchCommand = new RelayCommand<object>(p => Search());
@@ -66,8 +65,6 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
 
         private void LoadRooms()
         {
-            // Tạm thời comment out để tránh lỗi nếu RoomType chưa có dữ liệu
-            // Rooms = new ObservableCollection<RoomInformation>(_roomService.GetRoomInformationList());
             var roomList = _roomService.GetRoomInformationList();
             if (roomList != null)
             {
@@ -84,7 +81,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        // SỬA ĐỔI: Phương thức EditRoom sẽ dùng SelectedRoom
+        
         private void EditRoom()
         {
             if (SelectedRoom != null)
@@ -101,7 +98,7 @@ namespace HoLeQuocKhanhWPF.ViewModels.Admins
             }
         }
 
-        // SỬA ĐỔI: Phương thức DeleteRoom sẽ dùng SelectedRoom
+        
         private void DeleteRoom()
         {
             if (SelectedRoom != null)
