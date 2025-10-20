@@ -6,7 +6,7 @@
     <Grid Margin="10">
         <DataGrid ItemsSource="{Binding BookingDetails}" IsReadOnly="True" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Room Number" Binding="{Binding Room.RoomNumber}"/>
+                <DataGridTextColumn Header="Room Number" Binding="{Binding RoomInformation.RoomNumber}"/>
                 <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate, StringFormat='dd/MM/yyyy'}"/>
                 <DataGridTextColumn Header="End Date" Binding="{Binding EndDate, StringFormat='dd/MM/yyyy'}"/>
                 <DataGridTextColumn Header="Price" Binding="{Binding ActualPrice, StringFormat=C}"/>

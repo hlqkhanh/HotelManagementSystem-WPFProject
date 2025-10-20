@@ -12,5 +12,7 @@ namespace BLL.IServices
         List<BookingReservation> GetBookingReservationsByCustomerID(int customerID);
         List<BookingReservation> GetAllBookingReservation();
         void AddBookingReservation(BookingReservation bookingReservation);
+
+        int GetMaxBookingReservationID();
     }
 }

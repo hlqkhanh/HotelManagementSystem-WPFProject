@@ -45,7 +45,16 @@ namespace DAL.DAO
 
         public static void Add(BookingReservation reservation)
         {
+            reservation.BookingReservationID = GetMaxBookingReservationID() + 1;
             bookingReservations.Add(reservation);
+        }
+
+        public static int GetMaxBookingReservationID()
+        {
+            if (bookingReservations.Count == 0)
+                return 0; 
+
+            return bookingReservations.Max(b => b.BookingReservationID);
         }
     }
 }

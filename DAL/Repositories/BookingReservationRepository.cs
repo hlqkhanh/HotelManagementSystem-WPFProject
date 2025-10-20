@@ -25,5 +25,10 @@ namespace DAL.Repositories
         {
             return BookingReservationDAO.GetBookingReservationsByCustomerID(customerID);
         }
+
+        public int GetMaxBookingReservationID()
+        {
+            return BookingReservationDAO.GetMaxBookingReservationID();
+        }
     }
 }

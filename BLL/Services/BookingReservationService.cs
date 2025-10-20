@@ -33,5 +33,10 @@ namespace BLL.Services
         {
             return iBookingReservationRepository.GetBookingReservationsByCustomerID(customerID);
         }
+
+        public int GetMaxBookingReservationID()
+        {
+            return iBookingReservationRepository.GetMaxBookingReservationID();
+        }
     }
 }

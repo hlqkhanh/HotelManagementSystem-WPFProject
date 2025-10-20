@@ -13,6 +13,7 @@ namespace DAL.IRepositories
         List<BookingReservation> GetAllBookingReservation();
 
         void AddBookingReservation(BookingReservation bookingReservation);
+        int GetMaxBookingReservationID();
 
     }
 }

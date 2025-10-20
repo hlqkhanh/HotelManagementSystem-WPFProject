@@ -118,20 +118,20 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
                     int numberOfDays = (EndDate - StartDate).Days;
                     decimal totalPrice = selectedRooms.Sum(room => numberOfDays * room.RoomPricePerDate);
 
+                    // Giả lập việc đã có ID mới sau khi lưu
+                    int newReservationId = _bookingReservationService.GetMaxBookingReservationID() + 1;
+
                     var newReservation = new BookingReservation
                     {
+                        BookingReservationID = newReservationId,
                         BookingDate = DateTime.Now,
                         TotalPrice = totalPrice,
                         CustomerID = _currentCustomer.CustomerID,
                         BookingStatus = 1
                     };
-
-                    // **QUAN TRỌNG**: Ở đây bạn cần gọi service để lưu `newReservation` vào CSDL
-                    // và lấy ra ID của nó sau khi lưu thành công.
-                    // Ví dụ: _bookingReservationService.AddBookingReservation(newReservation);
-
-                    // Giả lập việc đã có ID mới sau khi lưu
-                    int newReservationId = new Random().Next(100, 1000);
+                    _bookingReservationService.AddBookingReservation(newReservation);
+                    
+                    
 
                     var newBookingDetails = new List<BookingDetail>();
                     foreach (var room in selectedRooms)
@@ -149,6 +149,10 @@ namespace HoLeQuocKhanhWPF.ViewModels.Customers
 
                     // **QUAN TRỌNG**: Ở đây bạn cần gọi service để lưu danh sách `newBookingDetails` vào CSDL.
                     // Ví dụ: foreach(var detail in newBookingDetails) { _bookingDetailService.AddBookingDetail(detail); }
+                    foreach(var bd in newBookingDetails.ToList())
+                    {
+                        _bookingDetailService.AddBookingDetail(bd);
+                    }
 
                     MessageBox.Show("Rooms booked successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 

@@ -3,16 +3,104 @@
   "WorkspaceRootPath": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\styles\\modernstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\styles\\modernstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\admins\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\admins\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\customers\\customermainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\customers\\customermainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\customers\\bookroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\customers\\bookroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\customers\\bookinghistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\customers\\bookinghistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\services\\bookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bussinessobject\\models\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|solutionrelative:bussinessobject\\models\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\admins\\customermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\admins\\customermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\services\\bookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\iservices\\ibookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ibookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\irepositories\\ibookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\irepositories\\ibookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\irepositories\\ibookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\irepositories\\ibookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\customers\\bookroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\customers\\bookroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\customers\\bookinghistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\customers\\bookinghistoryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\roommanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\roommanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\dialogs\\bookingdetaildialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\dialogs\\changepassworddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -47,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\admins\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\views\\admins\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\views\\admins\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\base\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\base\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,68 +147,16 @@
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\base\\passwordboxesconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\roommanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\roommanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\holequockhanhwpf\\viewmodels\\admins\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A36850-5AE3-440F-9691-0858DA17433A}|HoLeQuocKhanhWPF\\HoLeQuocKhanhWPF.csproj|solutionrelative:holequockhanhwpf\\viewmodels\\admins\\adminmainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bussinessobject\\models\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|solutionrelative:bussinessobject\\models\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\services\\bookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\iservices\\ibookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ibookingreservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\iservices\\ibookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\iservices\\ibookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\irepositories\\ibookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\irepositories\\ibookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\bookingreservationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bll\\services\\bookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752BAA04-B6A6-432E-A7FF-75171D04641D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\bookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\irepositories\\ibookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\irepositories\\ibookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bussinessobject\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|solutionrelative:bussinessobject\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\dal\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606C1D4C-41F8-41EF-AF32-1DCC068FA3B3}|DAL\\DAL.csproj|solutionrelative:dal\\dao\\customerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E665B68-E354-47D7-8F19-5A6B8AD89C76}|BussinessObject\\BussinessObjects.csproj|d:\\fpt_process\\s5_fa25\\prn212\\codebaitap\\holequockhanh_se19b1.net_a01\\bussinessobject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,7 +245,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -241,147 +269,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangePasswordDialog.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:54:17.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChangePasswordDialog.xaml",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
+              "DocumentIndex": 0,
+              "Title": "ModernStyles.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Styles\\ModernStyles.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Styles\\ModernStyles.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Styles\\ModernStyles.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Styles\\ModernStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T06:54:08.281Z",
+              "WhenOpened": "2025-10-20T00:47:06.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookingDetailDialog.xaml",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T06:53:22.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingDetailDialog.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "CustomerMainViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\CustomerMainViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\CustomerMainViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\CustomerMainViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\CustomerMainViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:52:08.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\App.xaml",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\App.xaml",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\App.xaml",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T06:48:20.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingHistoryView.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:24.956Z",
+              "WhenOpened": "2025-10-16T07:35:28.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BookRoomView.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "AdminMainViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:19.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T06:50:41.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoomManagementView.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:14.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReportView.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:10.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerManagementView.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:08.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminMainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:51:03.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml",
@@ -393,195 +318,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
+              "DocumentIndex": 8,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DAO\\BookingDetailDAO.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingDetailDAO.cs",
+              "RelativeToolTip": "DAL\\DAO\\BookingDetailDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T14:59:48.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerManagementView.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T07:11:49.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDAO.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\CustomerDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DAO\\CustomerDAO.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\CustomerDAO.cs",
+              "RelativeToolTip": "DAL\\DAO\\CustomerDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAADvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:00:11.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingHistoryViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookingHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookingHistoryViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookingHistoryViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookingHistoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:56.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:35:24.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BookRoomViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookRoomViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookRoomViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookRoomViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Customers\\BookRoomViewModel.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5kAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:53.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:00:57.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PasswordBoxesConverter.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:50.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoomManagementViewModel.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:48.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ReportViewModel.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:46.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CustomerManagementViewModel.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:44.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminMainViewModel.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\AdminMainViewModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T06:50:41.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BookingDetailDialog.g.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
-              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
-              "RelativeToolTip": "HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAlwCoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T15:25:45.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BookingReservation.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\BookingReservation.cs",
-              "RelativeDocumentMoniker": "BussinessObject\\Models\\BookingReservation.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\BookingReservation.cs",
-              "RelativeToolTip": "BussinessObject\\Models\\BookingReservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T11:23:44.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BookingReservationService.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\BookingReservationService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\BookingReservationService.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\BookingReservationService.cs",
-              "RelativeToolTip": "BLL\\Services\\BookingReservationService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T01:19:16.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IBookingReservationService.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingReservationService.cs",
-              "RelativeDocumentMoniker": "BLL\\IServices\\IBookingReservationService.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingReservationService.cs",
-              "RelativeToolTip": "BLL\\IServices\\IBookingReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T01:13:38.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IBookingDetailService.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingDetailService.cs",
-              "RelativeDocumentMoniker": "BLL\\IServices\\IBookingDetailService.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingDetailService.cs",
-              "RelativeToolTip": "BLL\\IServices\\IBookingDetailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T01:13:22.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BookingReservationRepository.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingReservationRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingReservationRepository.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingReservationRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\BookingReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:25:08.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IBookingReservationRepository.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IBookingReservationRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\IRepositories\\IBookingReservationRepository.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IBookingReservationRepository.cs",
-              "RelativeToolTip": "DAL\\IRepositories\\IBookingReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:23:46.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BookingReservationDAO.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingReservationDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DAO\\BookingReservationDAO.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingReservationDAO.cs",
-              "RelativeToolTip": "DAL\\DAO\\BookingReservationDAO.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwC8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:00:02.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 9,
               "Title": "BookingDetailService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\BookingDetailService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\BookingDetailService.cs",
@@ -593,19 +389,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingDetailRepository.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingDetailRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingDetailRepository.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingDetailRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\BookingDetailRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CustomerManagementViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\CustomerManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:24:48.511Z"
+              "WhenOpened": "2025-10-16T06:50:44.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 10,
+              "Title": "BookingReservation.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\BookingReservation.cs",
+              "RelativeDocumentMoniker": "BussinessObject\\Models\\BookingReservation.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\BookingReservation.cs",
+              "RelativeToolTip": "BussinessObject\\Models\\BookingReservation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T11:23:44.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingReservationDAO.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingReservationDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DAO\\BookingReservationDAO.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingReservationDAO.cs",
+              "RelativeToolTip": "DAL\\DAO\\BookingReservationDAO.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:00:02.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookingReservationService.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingReservationService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IBookingReservationService.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingReservationService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IBookingReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T01:13:38.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingReservationRepository.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingReservationRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingReservationRepository.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingReservationRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BookingReservationRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:25:08.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingReservationService.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\BookingReservationService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\BookingReservationService.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\BookingReservationService.cs",
+              "RelativeToolTip": "BLL\\Services\\BookingReservationService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwCYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T01:19:16.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IBookingReservationRepository.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IBookingReservationRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IRepositories\\IBookingReservationRepository.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IBookingReservationRepository.cs",
+              "RelativeToolTip": "DAL\\IRepositories\\IBookingReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:23:46.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IBookingDetailRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IBookingDetailRepository.cs",
               "RelativeDocumentMoniker": "DAL\\IRepositories\\IBookingDetailRepository.cs",
@@ -617,19 +485,255 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BookingDetailDAO.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingDetailDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DAO\\BookingDetailDAO.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\BookingDetailDAO.cs",
-              "RelativeToolTip": "DAL\\DAO\\BookingDetailDAO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "BookingDetailRepository.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingDetailRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingDetailRepository.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\BookingDetailRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BookingDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T14:59:48.208Z"
+              "WhenOpened": "2025-10-12T15:24:48.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookRoomView.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T06:59:11.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookingHistoryView.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:24.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\App.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\App.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\App.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T06:48:20.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingDetailDialog.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:52:08.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingDetailDialog.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\BookingDetailDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T06:53:22.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingHistoryView.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookingHistoryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T06:59:09.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoomManagementViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\RoomManagementViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:50:48.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChangePasswordDialog.xaml",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T06:54:08.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChangePasswordDialog.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Dialogs\\ChangePasswordDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:54:17.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookRoomView.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Customers\\BookRoomView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:19.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RoomManagementView.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\RoomManagementView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:14.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReportView.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\ReportView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:10.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CustomerManagementView.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\CustomerManagementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:08.659Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "AdminMainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\Views\\Admins\\AdminMainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:51:03.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:50:56.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:50:53.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PasswordBoxesConverter.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Base\\PasswordBoxesConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:50:50.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReportViewModel.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\ViewModels\\Admins\\ReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:50:46.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BookingDetailDialog.g.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
+              "RelativeDocumentMoniker": "HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
+              "RelativeToolTip": "HoLeQuocKhanhWPF\\obj\\Debug\\net8.0-windows\\Views\\Dialogs\\BookingDetailDialog.g.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:25:45.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IBookingDetailService.cs",
+              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingDetailService.cs",
+              "RelativeDocumentMoniker": "BLL\\IServices\\IBookingDetailService.cs",
+              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IBookingDetailService.cs",
+              "RelativeToolTip": "BLL\\IServices\\IBookingDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T01:13:22.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "BookingDetail.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\BookingDetail.cs",
               "RelativeDocumentMoniker": "BussinessObject\\Models\\BookingDetail.cs",
@@ -641,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "RoomInformationDAO.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\RoomInformationDAO.cs",
               "RelativeDocumentMoniker": "DAL\\DAO\\RoomInformationDAO.cs",
@@ -653,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "BussinessObject\\Models\\Customer.cs",
@@ -665,19 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CustomerDAO.cs",
-              "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\CustomerDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DAO\\CustomerDAO.cs",
-              "ToolTip": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\CustomerDAO.cs",
-              "RelativeToolTip": "DAL\\DAO\\CustomerDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T15:00:11.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "RoomInformationService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\RoomInformationService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\RoomInformationService.cs",
@@ -689,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "RoomInformation.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\Models\\RoomInformation.cs",
               "RelativeDocumentMoniker": "BussinessObject\\Models\\RoomInformation.cs",
@@ -701,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "RoomInformationRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\RoomInformationRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\RoomInformationRepository.cs",
@@ -713,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "IRoomTypeRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IRoomTypeRepository.cs",
               "RelativeDocumentMoniker": "DAL\\IRepositories\\IRoomTypeRepository.cs",
@@ -725,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\CustomerService.cs",
@@ -737,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\CustomerRepository.cs",
@@ -749,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "RoomTypeDAO.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAO\\RoomTypeDAO.cs",
               "RelativeDocumentMoniker": "DAL\\DAO\\RoomTypeDAO.cs",
@@ -761,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "BussinessObjects.csproj",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BussinessObject\\BussinessObjects.csproj",
               "RelativeDocumentMoniker": "BussinessObject\\BussinessObjects.csproj",
@@ -769,12 +861,11 @@
               "RelativeToolTip": "BussinessObject\\BussinessObjects.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-12T11:13:42.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:13:42.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\ICustomerService.cs",
               "RelativeDocumentMoniker": "BLL\\IServices\\ICustomerService.cs",
@@ -786,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "IRoomInformationService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IRoomInformationService.cs",
               "RelativeDocumentMoniker": "BLL\\IServices\\IRoomInformationService.cs",
@@ -798,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "IRoomTypeService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\IServices\\IRoomTypeService.cs",
               "RelativeDocumentMoniker": "BLL\\IServices\\IRoomTypeService.cs",
@@ -810,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "IRoomInformationRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\IRoomInformationRepository.cs",
               "RelativeDocumentMoniker": "DAL\\IRepositories\\IRoomInformationRepository.cs",
@@ -822,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "RoomTypeService.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\BLL\\Services\\RoomTypeService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\RoomTypeService.cs",
@@ -834,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "RoomTypeRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\Repositories\\RoomTypeRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\RoomTypeRepository.cs",
@@ -846,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\IRepositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "DAL\\IRepositories\\ICustomerRepository.cs",
@@ -858,18 +949,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\84702\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\84702\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "ViewState": "AgIAABgAAAAAAAAAAIAwwCcAAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T16:49:01.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T16:49:01.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\FPT_PROCESS\\S5_FA25\\PRN212\\CodeBaiTap\\HoLeQuocKhanh_SE19B1.NET_A01\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -877,8 +967,7 @@
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-12T11:07:11.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T11:07:11.178Z"
             }
           ]
         }
